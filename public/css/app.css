@@ -11101,11 +11101,37 @@ a.text-dark:focus {
 }
 
 body {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
 }
 
 nav.navbar.navbar-expand-lg {
   margin: 20px;
+}
+
+footer {
+  border-top: 1px solid #cccccc;
+  margin-top: 10px;
+  padding-top: 5px;
+  color: #777;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+footer .brand-icon {
+  width: 17px;
+  height: 17px;
+}
+
+footer small {
+  float: left;
+}
+
+footer a {
+  color: gray;
+}
+
+footer a:hover {
+  color: #0000F0;
 }
 
