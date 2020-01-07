@@ -19,6 +19,11 @@ class UsersController extends Controller
 
     public function store(Request $request)
     {
-        dump($request);
+        $this->validate($request,[
+            'name' => 'required|min:3|max:50',
+            'email' => 'required|email|max:255|unique:users',
+            'password' => 'required|min:3|confirmed',
+        ]);
+        return;
     }
 }
