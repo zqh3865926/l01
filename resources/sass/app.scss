@@ -31,3 +31,25 @@ footer {
     color: #0000F0;
   }
 }
+
+section.user-info{
+  padding-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  .gravatar{
+    max-width: 70px;
+    float: none;
+  }
+  h1{
+    font-size: 1.4em;
+    letter-spacing: -1px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+  }
+}
+
+.gravatar{
+  max-width: 50px;
+  border-radius: 50%;
+  float:left;
+}
