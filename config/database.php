@@ -68,7 +68,7 @@ return [
 //            'url' => env('DATABASE_URL'),
 //            'host' => env('DB_HOST', '127.0.0.1'),
             'host' => $db_config['host'],
-            'port' => env('DB_PORT', '5432'),
+            'port' => '5432',
             'database' => $db_config['database'],
             'username' => $db_config['user'],
             'password' => $db_config['pass'],
